@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>541</width>
+    <height>671</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>添加/修改新闻</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>添加/修改新闻：</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="2" column="2" rowspan="2">
+         <widget class="QLabel" name="pixlabel">
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>200</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>封面图片预览</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="author">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 170, 255);</string>
+          </property>
+          <property name="maxLength">
+           <number>200</number>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QDateEdit" name="dateEdit">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 170, 255);</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="pushButton">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>添加封面图片</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_6">
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>作者：</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_8">
+          <property name="text">
+           <string>发布日期：</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="title">
+          <property name="maximumSize">
+           <size>
+            <width>280</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 170, 255);</string>
+          </property>
+          <property name="maxLength">
+           <number>200</number>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>标题：</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="Line" name="line">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="1" column="1">
+         <widget class="QLabel" name="cl1">
+          <property name="text">
+           <string>内容1图片预览：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_9">
+          <property name="text">
+           <string>内容1：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="cb1">
+          <property name="text">
+           <string>添加内容1图片</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QTextEdit" name="ct1">
+          <property name="maximumSize">
+           <size>
+            <width>300</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 170, 255);</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="Line" name="line_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_11">
+          <property name="text">
+           <string>内容2：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" rowspan="3">
+         <widget class="QTextEdit" name="ct2">
+          <property name="maximumSize">
+           <size>
+            <width>300</width>
+            <height>16777215</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="cb2">
+          <property name="text">
+           <string>添加内容2图片</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" rowspan="3">
+         <widget class="QLabel" name="cl2">
+          <property name="text">
+           <string>内容2图片预览：</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="Line" name="line_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="1" column="0" rowspan="3">
+         <widget class="QTextEdit" name="ct3">
+          <property name="maximumSize">
+           <size>
+            <width>300</width>
+            <height>16777215</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_15">
+          <property name="text">
+           <string>内容3：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="cb3">
+          <property name="text">
+           <string>添加内容3图片</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" rowspan="3">
+         <widget class="QLabel" name="cl3">
+          <property name="text">
+           <string>内容2图片预览：</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="Line" name="line_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="subbt">
+        <property name="text">
+         <string>确定提交</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>title</tabstop>
+  <tabstop>author</tabstop>
+  <tabstop>dateEdit</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>ct1</tabstop>
+  <tabstop>cb1</tabstop>
+  <tabstop>ct2</tabstop>
+  <tabstop>cb2</tabstop>
+  <tabstop>ct3</tabstop>
+  <tabstop>cb3</tabstop>
+  <tabstop>subbt</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

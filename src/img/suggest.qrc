@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="pic">
+    <file>assign.png</file>
+    <file>back.jpg</file>
+    <file>complete.png</file>
+    <file>down.png</file>
+    <file>question.png</file>
+    <file>tasks.png</file>
+  </qresource>
+</RCC>

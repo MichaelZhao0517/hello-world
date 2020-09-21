@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>980</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>1</horstretch>
+    <verstretch>1</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <family>华文仿宋</family>
+    <weight>75</weight>
+    <italic>false</italic>
+    <bold>true</bold>
+    <kerning>true</kerning>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Pentair Suggestion Management System(PSMS)</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget#centralwidget{border-image: url(:/pic/src/img/back.jpg);}
+</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QGridLayout" name="subLayout"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>980</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/pic/src/img/back.jpg);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string notr="true">菜单</string>
+    </property>
+    <property name="separatorsCollapsible">
+     <bool>false</bool>
+    </property>
+    <addaction name="frameclose"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>WhatsThisCursor</cursorShape>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Agency FB&quot;;
+background-color: rgb(40, 50, 62);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>64</width>
+     <height>64</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <property name="floatable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="appvSuggest"/>
+   <addaction name="downloadSuggestion"/>
+   <addaction name="uploadTask"/>
+   <addaction name="uploadQuestion"/>
+   <addaction name="actionNewspaper"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="frameclose">
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="toolTip">
+    <string>退出</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+X</string>
+   </property>
+  </action>
+  <action name="appvSuggest">
+   <property name="icon">
+    <iconset resource="suggestion.qrc">
+     <normaloff>:/pic/src/img/assign.png</normaloff>:/pic/src/img/assign.png</iconset>
+   </property>
+   <property name="text">
+    <string>批准提案</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#000000;&quot;&gt;批准提案&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="downloadSuggestion">
+   <property name="icon">
+    <iconset resource="suggestion.qrc">
+     <normaloff>:/pic/src/img/down.png</normaloff>:/pic/src/img/down.png</iconset>
+   </property>
+   <property name="text">
+    <string>下载提案</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#555500;&quot;&gt;下载提案&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="uploadTask">
+   <property name="icon">
+    <iconset resource="suggestion.qrc">
+     <normaloff>:/pic/src/img/tasks.png</normaloff>:/pic/src/img/tasks.png</iconset>
+   </property>
+   <property name="text">
+    <string>稽核任务</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#555500;&quot;&gt;稽核任务&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="uploadQuestion">
+   <property name="icon">
+    <iconset resource="suggestion.qrc">
+     <normaloff>:/pic/src/img/question.png</normaloff>:/pic/src/img/question.png</iconset>
+   </property>
+   <property name="text">
+    <string>限时问答</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#555500;&quot;&gt;限时问答&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="actionNewspaper">
+   <property name="icon">
+    <iconset resource="suggestion.qrc">
+     <normaloff>:/pic/src/img/complete.png</normaloff>:/pic/src/img/complete.png</iconset>
+   </property>
+   <property name="text">
+    <string>Newspaper</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="suggestion.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>frameclose</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

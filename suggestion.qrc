@@ -1,0 +1,58 @@
+<RCC>
+  <qresource prefix="pic">
+    <file>src/img/1.jpg</file>
+    <file>src/img/assign.png</file>
+    <file>src/img/back.jpg</file>
+    <file>src/img/complete.png</file>
+    <file>src/img/down.png</file>
+    <file>src/img/question.png</file>
+    <file>src/img/tasks.png</file>
+  </qresource>
+  <qresource prefix="qss">
+    <file>src/qss/black.qss</file>
+    <file>src/qss/QDarkStyleSheet.qss</file>
+    <file>src/qss/white.qss</file>
+  </qresource>
+  <qresource prefix="dark">
+    <file>src/QDarkStyleSheet/branch_closed.png</file>
+    <file>src/QDarkStyleSheet/branch_closed-on.png</file>
+    <file>src/QDarkStyleSheet/branch_open.png</file>
+    <file>src/QDarkStyleSheet/branch_open-on.png</file>
+    <file>src/QDarkStyleSheet/checkbox_checked.png</file>
+    <file>src/QDarkStyleSheet/checkbox_checked_disabled.png</file>
+    <file>src/QDarkStyleSheet/checkbox_checked_focus.png</file>
+    <file>src/QDarkStyleSheet/checkbox_indeterminate.png</file>
+    <file>src/QDarkStyleSheet/checkbox_indeterminate_disabled.png</file>
+    <file>src/QDarkStyleSheet/checkbox_indeterminate_focus.png</file>
+    <file>src/QDarkStyleSheet/checkbox_unchecked.png</file>
+    <file>src/QDarkStyleSheet/checkbox_unchecked_disabled.png</file>
+    <file>src/QDarkStyleSheet/checkbox_unchecked_focus.png</file>
+    <file>src/QDarkStyleSheet/close.png</file>
+    <file>src/QDarkStyleSheet/close-hover.png</file>
+    <file>src/QDarkStyleSheet/close-pressed.png</file>
+    <file>src/QDarkStyleSheet/down_arrow.png</file>
+    <file>src/QDarkStyleSheet/down_arrow_disabled.png</file>
+    <file>src/QDarkStyleSheet/Hmovetoolbar.png</file>
+    <file>src/QDarkStyleSheet/Hsepartoolbar.png</file>
+    <file>src/QDarkStyleSheet/left_arrow.png</file>
+    <file>src/QDarkStyleSheet/left_arrow_disabled.png</file>
+    <file>src/QDarkStyleSheet/radio_checked.png</file>
+    <file>src/QDarkStyleSheet/radio_checked_disabled.png</file>
+    <file>src/QDarkStyleSheet/radio_checked_focus.png</file>
+    <file>src/QDarkStyleSheet/radio_unchecked.png</file>
+    <file>src/QDarkStyleSheet/radio_unchecked_disabled.png</file>
+    <file>src/QDarkStyleSheet/radio_unchecked_focus.png</file>
+    <file>src/QDarkStyleSheet/right_arrow.png</file>
+    <file>src/QDarkStyleSheet/right_arrow_disabled.png</file>
+    <file>src/QDarkStyleSheet/sizegrip.png</file>
+    <file>src/QDarkStyleSheet/stylesheet-branch-end.png</file>
+    <file>src/QDarkStyleSheet/stylesheet-branch-more.png</file>
+    <file>src/QDarkStyleSheet/stylesheet-vline.png</file>
+    <file>src/QDarkStyleSheet/transparent.png</file>
+    <file>src/QDarkStyleSheet/undock.png</file>
+    <file>src/QDarkStyleSheet/up_arrow.png</file>
+    <file>src/QDarkStyleSheet/up_arrow_disabled.png</file>
+    <file>src/QDarkStyleSheet/Vmovetoolbar.png</file>
+    <file>src/QDarkStyleSheet/Vsepartoolbar.png</file>
+  </qresource>
+</RCC>

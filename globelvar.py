@@ -1,0 +1,37 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+def _init():
+    global _global_dict
+    _global_dict = {}
+
+    # local setting
+    # set_value('HOSTNAME','127.0.0.1')
+    # set_value('PORT', 8000)
+    # set_value('DBNAME', 'suggestion')
+    # set_value('USRNAME', 'root')
+    # set_value('PWD', 'Zhao.jiayun_0217')
+    # set_value('CHAR', 'utf8')
+
+
+    # server setting
+    set_value('HOSTNAME','129.211.114.134')
+    set_value('PORT', 8000)
+    set_value('DBNAME', 'suggestion')
+    set_value('USRNAME', 'pentairSuggest')
+    set_value('PWD', 'Zhao.jiayun_0217')
+    set_value('CHAR', 'utf8')
+
+
+
+
+
+def set_value(name, value):
+    _global_dict[name] = value
+
+def get_value(name, defValue=None):
+    try:
+        return _global_dict[name]
+    except KeyError:
+        return defValue
+
